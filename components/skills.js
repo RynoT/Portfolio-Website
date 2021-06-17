@@ -2,6 +2,9 @@
 import styleSkills from "./skills.module.css"
 
 export default function Skills() {
+	const frontend = ["JavaScript", "Webpack", "Node.js / NPM",, "HTML / CSS3 / SASS", "React / Angular / Next.js"];
+	const backend = ["C / C++", "Java", "Python", "C# / .NET", "NoSQL / MySQL / MongoDB"];
+	const other = ["DevOps", "Unreal / Unity", "Jira / Confluence", "AWS / CloudFlare", "Git / SVN / Perforce"];
 	return (
 		<div className={styleSkills.skills}>
 			<h2>
@@ -10,86 +13,44 @@ export default function Skills() {
 			<div className={styleSkills.skillsBox}>
 				<div className={styleSkills.skillsBoxInner}>
 					<div className={styleSkills.skillsBoxIcon}>
-						<img src="/images/check.svg" />
+						<img src="/images/check.svg" title="Tick" alt="Tick" />
 					</div>
 					<h3>Frontend</h3>
 					<ul>
-						<li>
-							<img src="/images/check.svg" />
-							<p>JavaScript</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>Webpack</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>React / Angular</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>Node.js / NPM</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>HTML / CSS3 / SASS</p>
-						</li>
+						{ frontend.map((next) => (
+							<li key={next}>
+								<img src="/images/check.svg" title="Tick" alt="Tick" />
+								<p>{next}</p>
+							</li>
+						)) }
 					</ul>
 				</div>
 				<div className={styleSkills.skillsBoxInner}>
 					<div className={styleSkills.skillsBoxIcon}>
-						<img src="/images/check.svg" />
+						<img src="/images/check.svg" title="Tick" alt="Tick" />
 					</div>
 					<h3>Backend</h3>
 					<ul>
-						<li>
-							<img src="/images/check.svg" />
-							<p>C / C++</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>Java</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>Python</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>C# / .NET</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>NoSQL / MySQL / MongoDB</p>
-						</li>
+						{ backend.map((next) => (
+							<li key={next}>
+								<img src="/images/check.svg" title="Tick" alt="Tick" />
+								<p>{next}</p>
+							</li>
+						)) }
 					</ul>
 				</div>
 				<div className={styleSkills.skillsBoxInner}>
 					<div className={styleSkills.skillsBoxIcon}>
-						<img src="/images/check.svg" />
+						<img src="/images/check.svg" title="Tick" alt="Tick" />
 					</div>
 					<h3>Other</h3>
 					<ul>
-						<li>
-							<img src="/images/check.svg" />
-							<p>DevOps</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>Unreal / Unity</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>Jira / Confluence</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>AWS / CloudFlare</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>Git / SVN / Perforce</p>
-						</li>
+						{ other.map((next) => (
+							<li key={next}>
+								<img src="/images/check.svg" title="Tick" alt="Tick" />
+								<p>{next}</p>
+							</li>
+						)) }
 					</ul>
 				</div>
 			</div>

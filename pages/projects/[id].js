@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import Date from '../../components/date'
 import Layout from "../../components/layout"
-import utilStyles from '../../styles/utils.module.css'
+import style from '../../styles/id.module.css'
 import { getAllProjectIds, getProjectData } from "../../lib/projects"
 
 export async function getStaticPaths() {
@@ -27,11 +27,8 @@ export default function Post({ postData }) {
 			<Head>
 				<title>Ryan Thomson | {postData.title} | Games Programmer</title>
 			</Head>
-			<article>
-				<h1 className={utilStyles.headingX1}>{postData.title}</h1>
-				<div className={utilStyles.lightText}>
-					<Date dateString={postData.date}/>
-				</div>
+			<article className={style.article}>
+				<h1>{postData.title}</h1>
 				<div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
 			</article>
 		</Layout>
