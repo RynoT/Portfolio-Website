@@ -5,8 +5,8 @@ export default function Date({ start, end }) {
 	return (
 		<>
 			<span>
-				{ typeof end === "undefined" ? ('Present') : (
-					<time dateTime={end}>{ format(parseISO(start), 'LLL yyyy') }</time>
+				{ typeof start === "undefined" ? ('Present') : (
+					<time dateTime={start}>{ format(parseISO(start), 'LLL yyyy') }</time>
 				)}
 			</span>
 			<span>{' - '}</span>

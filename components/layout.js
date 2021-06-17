@@ -11,8 +11,23 @@ export default function Layout({ children, home }) {
 		<div className={style.layout}>
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
-				<meta name="description" content="Ryan Thomson portfolio website. WIP." />
-				<meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
+				<meta name="author" content="Ryan Thomson" />
+				<meta name="keywords" content="Portfolio, Games, Programming" />
+				<meta name="description" content="Ryan Thomson portfolio website" />
+  				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+				<meta property="og:title" content="Ryan Thomson | Portfolio | Games Programmer" />
+				<meta property="og:description" content="Ryan Thomson portfolio website" />
+				<meta property="og:image" content="/images/ogimage.png" />
+				<meta property="og:url" content="https://ryan.makegames.dev" />
+				<meta property="og:site_name" content="Ryan Thomson | Portfolio | Games Programmer" />
+
+				<meta name="twitter:title" content="Ryan Thomson | Portfolio | Games Programmer" />
+				<meta name="twitter:description" content="Ryan Thomson portfolio website" />
+				<meta name="twitter:image" content="/images/ogimage.png" />
+				<meta name="twitter:image:alt" content="Ryan Thomson Portfolio"></meta>
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:site" content="@ryanthomson0" />
 			</Head>
 			<Header/>
 			<main className={style.container}>{children}</main>

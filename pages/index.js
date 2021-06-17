@@ -22,7 +22,7 @@ export default function Home({ projectData }) {
 	return (
 		<Layout home>
 			<Head>
-				<title>Ryan Thomson | Games Programmer</title>
+				<title>Ryan Thomson | Portfolio | Games Programmer</title>
 			</Head>
 			<Intro/>
 			<Skills/>
