@@ -76,15 +76,15 @@ export default function Skills() {
 						</li>
 						<li>
 							<img src="/images/check.svg" />
-							<p>Unity Engine</p>
-						</li>
-						<li>
-							<img src="/images/check.svg" />
-							<p>Unreal Engine</p>
+							<p>Unreal / Unity</p>
 						</li>
 						<li>
 							<img src="/images/check.svg" />
 							<p>Jira / Confluence</p>
+						</li>
+						<li>
+							<img src="/images/check.svg" />
+							<p>AWS / CloudFlare</p>
 						</li>
 						<li>
 							<img src="/images/check.svg" />

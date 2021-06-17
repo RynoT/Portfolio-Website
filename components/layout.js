@@ -13,6 +13,7 @@ export default function Layout({ children, home }) {
 			</Head>
 			<Header/>
 			<main className={styleLayout.container}>{children}</main>
+			<Footer/>
 			
 			{/* <header className={styles.header}>
 				{home ? (

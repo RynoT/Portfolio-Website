@@ -1,24 +1,24 @@
 
 import Head from 'next/head'
-import Link from 'next/link'
-import Date from '../components/date'
+
+import Layout from '../components/layout'
+
 import Intro from '../components/intro'
 import Skills from '../components/skills'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
+import Projects from '../components/projects'
 
-import { getSortedPostsData } from '../lib/posts'
+import { getSortedProjectData } from '../lib/projects'
 
 export async function getStaticProps() {
-	const allPostsData = getSortedPostsData()
+	const projectData = getSortedProjectData()
 	return {
 		props: {
-			allPostsData
+			projectData
 		}
 	}
 }
 
-export default function Home({ allPostsData }) {
+export default function Home({ projectData }) {
 	return (
 		<Layout home>
 			<Head>
@@ -26,6 +26,7 @@ export default function Home({ allPostsData }) {
 			</Head>
 			<Intro/>
 			<Skills/>
+			<Projects data={projectData} />
 			 {/* <section className={utilStyles.headingMd}>
 				<p>[Your Self Introduction]</p>
 				<p>

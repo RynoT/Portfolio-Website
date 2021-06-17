@@ -17,7 +17,8 @@
 }
 
 .skillsBoxInner {
-	margin: auto;
+	margin: 2rem auto 2rem auto;
+	width: 300px;
 	min-width: 30%;
 	padding: 2rem;
 	border-radius: 6px;
