@@ -6,7 +6,7 @@ export default function Intro() {
 		<div className={styleIntro.intro}>
 			<div className={styleIntro.inner}>
 				<div className={styleIntro.innerImage}>
-					<img src="./images/Portrait.jpg" />
+					<img src="./images/portrait.jpg" />
 				</div>
 				<div className={styleIntro.innerParagraph}>
 					<p>Hello, my name is</p>

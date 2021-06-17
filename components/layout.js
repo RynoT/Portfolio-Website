@@ -2,6 +2,7 @@
 import Head from "next/head"
 import Header from "./header"
 import Footer from "./footer"
+import ScrollToTop from "./scrollToTop"
 import styleLayout from './layout.module.css'
 
 export default function Layout({ children, home }) {
@@ -14,6 +15,7 @@ export default function Layout({ children, home }) {
 			<Header/>
 			<main className={styleLayout.container}>{children}</main>
 			<Footer/>
+			{/* <ScrollToTop/> */}
 			
 			{/* <header className={styles.header}>
 				{home ? (

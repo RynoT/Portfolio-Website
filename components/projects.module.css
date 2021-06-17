@@ -2,7 +2,7 @@
 .projects {
 	width: 100%;
 	margin: auto;
-	max-width: 70rem;
+	max-width: 90%;
 }
 
 .projects h2 {
@@ -24,7 +24,7 @@
 }
 
 .card {
-	height: 500px;
+	height: 655px;
 	width: 450px;
 	margin: 2rem;
 	border-radius: 8px 8px 0 0;
@@ -33,7 +33,7 @@
 }
 
 .card img {
-	Width: 100%;
+	width: 100%;
 	padding: 0;
 	margin: 0;
 	border-radius: 8px 8px 0 0;
@@ -50,4 +50,63 @@
 	margin: 0;
 	padding: 0;
 	font-size: 200%;
+}
+
+.date {
+	display: block;
+	font-size: 80%;
+	opacity: 70%;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.softwareBox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.softwareBox span {
+	margin: auto;
+}
+
+.softwareBox img {
+	width: 50px;
+	margin: 10px;
+	filter: invert() brightness(100%)
+}
+
+.softwareBox img {
+	width: 50px;
+	margin: 10px;
+	text-align: center;
+	filter: invert() brightness(100%)
+}
+
+.softwareBox span p {
+	position: relative;
+	font-weight: bold;
+	font-size: 150%;
+	margin-top: rem;
+	color:rgb(255, 255, 255);
+}
+
+a.button {
+	display: block;
+	padding: 0.35em 1.2em;
+	border: 0.1em solid #FFFFFF;
+	margin: 0 0.3em 0.3em 0;
+	margin: 0 15%;
+	border-radius: 0.12em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-weight: 300;
+	color: #FFFFFF;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+a.button:hover {
+	color: black;
+	background-color: white;
 }

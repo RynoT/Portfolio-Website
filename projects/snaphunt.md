@@ -1,10 +1,14 @@
 ---
 title: 'SNAPHUNT'
-icon: '/images/snaphunt.jpg'
-team_size: 6
-date:  '2019-11-01'
-start_date: '2019-11-01'
-end_date: '2020-09-01'
+icon: '/images/snaphunt.png'
+software:
+  - '/images/unrealengine.svg'
+  - '/images/wwise.svg'
+studio: 'Darkroom Interactive'
+role: 'Lead Programmer'
+sort_date:  '2019-11-01'
+start_date: '2018-11-01'
+end_date: '2019-09-01'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

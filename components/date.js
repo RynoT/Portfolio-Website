@@ -1,7 +1,20 @@
 
 import { parseISO, format } from 'date-fns'
 
-export default function Date({ dateString }) {
-  const date = parseISO(dateString)
-  return <time dateTime={dateString}>{ format(date, 'LLLL yyyy') }</time>
+export default function Date({ start, end }) {
+	return (
+		<>
+			<span>
+				{ typeof end === "undefined" ? ('Present') : (
+					<time dateTime={end}>{ format(parseISO(start), 'LLL yyyy') }</time>
+				)}
+			</span>
+			<span>{' - '}</span>
+			<span>
+				{ typeof end === "undefined" ? ('Present') : (
+					<time dateTime={end}>{ format(parseISO(end), 'LLL yyyy') }</time>
+				)}
+			</span>
+		</>
+	)
 }

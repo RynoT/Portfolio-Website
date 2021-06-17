@@ -8,11 +8,10 @@ html, body {
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-	color: #0070f3;
-	text-decoration: none;
-}
-
 * {
 	box-sizing: border-box;
+}
+
+::selection {
+	background: rgba(255, 68, 0, 0.719);
 }
