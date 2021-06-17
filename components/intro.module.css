@@ -1,4 +1,45 @@
 
 .intro {
+	width: 100%;
+	background-color: rgb(25, 27, 29);
 	
+	/* box-shadow: inset -100px 0px 1rem rgb(100, 100, 100); */
+	box-shadow: inset 0px 5px 8px rgb(25, 27, 29), inset 0px -5px 8px rgb(25, 27, 29);
+}
+
+.inner {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 70rem;
+	margin: auto;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.innerImage {
+	text-align: left;
+	flex: 0 0 auto;
+	width: auto;
+	max-width: 100%;
+}
+
+.innerImage img {
+	max-width: 240px;
+	border-radius: 0.6rem;
+	vertical-align: middle;
+}
+
+.innerParagraph {
+	text-align: left;
+	flex: 1 0 0%;
+	width: 100%;
+	max-width: 100%;
+	padding-left: 2rem;
+}
+
+.innerParagraph h2 {
+	font-size: 250%;
+	font-weight: bold;
+	margin-top: -1.2rem;
+	margin-bottom: -0.2rem;
 }

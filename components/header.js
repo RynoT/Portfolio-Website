@@ -1,11 +1,14 @@
 
+import Link from "next/link"
 import styleHeader from "./header.module.css"
 
 export default function Header() {
 	return (
 		<div className={styleHeader.header}>
 			<div className={styleHeader.name}>
-				<span>{`</> `}</span><span className={styleHeader.firstname}>RYAN</span><span> THOMSON</span>
+				<Link href="/">
+					<a><span>{`</> `}</span><span className={styleHeader.firstname}>RYAN</span><span> THOMSON</span></a>
+				</Link>
 			</div>
 			<div className={styleHeader.social}>
 				<a href="https://twitter.com/ryanthomson0" target="_blank">

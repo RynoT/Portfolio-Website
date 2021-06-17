@@ -1,0 +1,73 @@
+
+.skills {
+	width: 100%;
+	margin: auto;
+	max-width: 70rem;
+}
+
+.skills h2 {
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.skillsBox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skillsBoxInner {
+	margin: auto;
+	min-width: 30%;
+	padding: 2rem;
+	border-radius: 6px;
+	background-color: rgb(25, 27, 29);
+	box-shadow: inset 0px 0px 8px rgb(25, 27, 29), 0 8px 20px rgb(20, 27, 29, 0.75);
+}
+
+.skillsBoxIcon {
+	width: 80px;
+	height: 80px;
+	padding: auto;
+	top: -70px;
+	left: 50%;
+	margin-left: -40px;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	background-color: orangered;
+}
+
+.skillsBoxIcon img {
+	top: 20px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	filter: invert() brightness(100%)
+}
+
+.skillsBoxInner h3 {
+	margin-top: -3rem;
+	text-align: center;
+	font-size: 125%;
+}
+
+.skillsBoxInner ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.skillsBoxInner li p {
+	display: inline;
+	vertical-align: middle;
+	padding-left: 0.5rem;
+}
+
+.skillsBoxInner li img {
+	max-width: 1.5rem;
+	margin: auto;
+	vertical-align: middle;
+	filter: invert() brightness(100%)
+}

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Date from '../components/date'
 import Intro from '../components/intro'
+import Skills from '../components/skills'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
@@ -24,6 +25,7 @@ export default function Home({ allPostsData }) {
 				<title>Ryan Thomson | Games Programmer</title>
 			</Head>
 			<Intro/>
+			<Skills/>
 			 {/* <section className={utilStyles.headingMd}>
 				<p>[Your Self Introduction]</p>
 				<p>

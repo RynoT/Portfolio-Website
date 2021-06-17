@@ -2,7 +2,7 @@
 import Head from "next/head"
 import Header from "./header"
 import Footer from "./footer"
-import styles from './layout.module.css'
+import styleLayout from './layout.module.css'
 
 export default function Layout({ children, home }) {
 	return (
@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
 				<meta name="description" content="Ryan Thomson portfolio website. WIP." />
 			</Head>
 			<Header/>
-			<main className={styles.container}>{children}</main>
+			<main className={styleLayout.container}>{children}</main>
 			
 			{/* <header className={styles.header}>
 				{home ? (
