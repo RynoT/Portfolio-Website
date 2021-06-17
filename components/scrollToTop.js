@@ -1,12 +1,11 @@
 
 import React, { useEffect, useState } from "react";
-import styleComponent from "./scrollToTop.module.css"
+
+import style from "./scrollToTop.module.css"
 
 export default function ScrollToTop() {
 	const [isVisible, setIsVisible] = useState(false);
 
-	// Top: 0 takes us all the way back to the top of the page
-	// Behavior: smooth keeps it smooth!
 	const scrollToTop = () => {
 		window.scrollTo({
 			top: 0,
@@ -15,13 +14,8 @@ export default function ScrollToTop() {
 	};
 
 	useEffect(() => {
-		// Button is displayed after scrolling for 500 pixels
 		const toggleVisibility = () => {
-			if (window.pageYOffset > 500) {
-				setIsVisible(true);
-			} else {
-				setIsVisible(false);
-			}
+			setIsVisible(window.pageYOffset > 500);
 		};
 
 		window.addEventListener("scroll", toggleVisibility);
@@ -29,13 +23,10 @@ export default function ScrollToTop() {
 		return () => window.removeEventListener("scroll", toggleVisibility);
 	}, []);
 
-	//scroll-to-top classes: fixed, bottom:0, right:0
 	return (
 		<div className="scroll-to-top">
 			{isVisible && (
-				<div onClick={scrollToTop}>
-					<h3>Go up!</h3>
-				</div>
+				<a className={style.scrollToTop} onClick={scrollToTop}><img src="/images/up.svg"/></a>
 			)}
 		</div>
 	);

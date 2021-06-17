@@ -22,6 +22,7 @@
 
 .header .name a {
 	color: inherit;
+	text-decoration: none;
 }
 
 .header div {

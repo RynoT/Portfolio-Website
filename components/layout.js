@@ -3,19 +3,21 @@ import Head from "next/head"
 import Header from "./header"
 import Footer from "./footer"
 import ScrollToTop from "./scrollToTop"
-import styleLayout from './layout.module.css'
+
+import style from './layout.module.css'
 
 export default function Layout({ children, home }) {
 	return (
-		<div>
+		<div className={style.layout}>
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="description" content="Ryan Thomson portfolio website. WIP." />
+				<meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
 			</Head>
 			<Header/>
-			<main className={styleLayout.container}>{children}</main>
+			<main className={style.container}>{children}</main>
+			<ScrollToTop/>
 			<Footer/>
-			{/* <ScrollToTop/> */}
 			
 			{/* <header className={styles.header}>
 				{home ? (

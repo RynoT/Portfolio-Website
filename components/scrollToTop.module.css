@@ -1,20 +1,30 @@
 
-#scrollToTop {
-	display: none;
+.scrollToTop {
 	position: fixed;
-	bottom: 20px; 
-	right: 30px; 
+	max-width: none;
+	right: 0;
+	bottom: 0;
+	width: 2.5rem;
+	height: 2.5rem;
+	border: 0.13em solid rgb(255, 255, 255, 0.75);
+	margin: 4.5rem 3rem;
+	border-radius: 50%;
+	text-decoration: none;
 	z-index: 99; 
-	border: none;
-	outline: none;
-	background-color: red;
-	color: white;
-	cursor: pointer;
-	padding: 15px; 
-	border-radius: 10px;
-	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	transition: all 0.2s;
 }
 
-#scrollToTop:hover {
-	background-color: #555;
+.scrollToTop img {
+	margin: 0;
+	padding-top: 3px;
+	vertical-align: middle;
+	opacity: 0.9;
+	filter: brightness(0) invert();
+}
+
+.scrollToTop:hover {
+	cursor: pointer;
+	background-color: rgb(10, 12, 14, 0.8);
 }
