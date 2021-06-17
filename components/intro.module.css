@@ -9,10 +9,9 @@
 .inner {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 70rem;
+	max-width: 72rem;
 	margin: auto;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding: 4rem 2rem 4rem 2rem;
 }
 
 .innerImage {

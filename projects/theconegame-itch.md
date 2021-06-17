@@ -5,6 +5,7 @@ software:
   - '/images/unrealengine.svg'
   - '/images/fmod.svg'
   - '/images/amazonaws.svg'
+  - '/images/mongodb.svg'
   - '/images/itchdotio.svg'
 sort_date:  '2020-03-27'
 start_date: '2020-03-27'

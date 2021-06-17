@@ -25,7 +25,7 @@ export default function Post({ postData }) {
 	return (
 		<Layout>
 			<Head>
-				<title>{postData.title}</title>
+				<title>Ryan Thomson | {postData.title} | Games Programmer</title>
 			</Head>
 			<article>
 				<h1 className={utilStyles.headingX1}>{postData.title}</h1>
