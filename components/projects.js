@@ -50,24 +50,22 @@ export default function Projects({ data }) {
 				{data.map((project) => (
 					<li key={project.id}>
 						<div className={style.card}>
-							<img src={project.icon} title={GetImageTitle(project.icon)} alt={GetImageTitle(project.icon)} />
+							<img src={project.icon} loading='lazy' title={GetImageTitle(project.icon)} alt={GetImageTitle(project.icon)} />
 							<div className={style.cardContent}>
 								<h2>{project.title}</h2>
 								<span className={style.date}><Date start={project.start_date} end={project.end_date} /></span>
 								<div className={style.softwareBox}>
-									<span>
-										{project.software ? (
-											project.software.map((image) => (
-												<img src={image} key={image} title={GetImageTitle(image)} alt={GetImageTitle(image)} />
-											)
-										)) : (<></>)}
-										{project.team_size ? (
-											<>
-												<img src="/images/teamsize.svg" title="Team Size" alt="Team Size" />
-												<p>x{project.team_size}</p>
-											</>
-										) : <></>}
-									</span>
+									{project.software ? (
+										project.software.map((image) => (
+											<img src={image} key={image} loading='lazy' title={GetImageTitle(image)} alt={GetImageTitle(image)} />
+										)
+									)) : (<></>)}
+									{project.team_size ? (
+										<>
+											<img src="/images/teamsize.svg" loading='lazy' title="Team Size" alt="Team Size" />
+											<p>x{project.team_size}</p>
+										</>
+									) : <></>}
 								</div>
 								<Link href="/projects/[id]" href={`/projects/${project.id}`}>
 									<a className={style.button}>View More</a>

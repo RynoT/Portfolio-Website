@@ -26,7 +26,7 @@ export default function ScrollToTop() {
 	return (
 		<div className="scroll-to-top">
 			{isVisible && (
-				<a className={style.scrollToTop} onClick={scrollToTop}><img src="/images/up.svg"/></a>
+				<a className={style.scrollToTop} onClick={scrollToTop}><img src="/images/up.svg" loading='lazy' alt="up" /></a>
 			)}
 		</div>
 	);
