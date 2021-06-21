@@ -12,13 +12,13 @@ export default function Header() {
 			</div>
 			<div className={styleHeader.social}>
 				<a href="https://twitter.com/ryanthomson0" target="_blank" rel="noreferrer">
-					<img src="/images/twitter.svg" title="Twitter" alt="Twitter" />
+					<img src="/images/icons/twitter.svg" title="Twitter" alt="Twitter" />
 				</a>
 				<a href="https://github.com/RynoT/" target="_blank" rel="noreferrer">
-					<img src="/images/github.svg" title="GitHub" alt="GitHub" />
+					<img src="/images/icons/github.svg" title="GitHub" alt="GitHub" />
 				</a>
 				<a href="https://www.linkedin.com/in/ryanthomson0/" target="_blank" rel="noreferrer">
-					<img src="/images/linkedin.svg" title="LinkedIn" alt="LinkedIn" />
+					<img src="/images/icons/linkedin.svg" title="LinkedIn" alt="LinkedIn" />
 				</a>
 			</div>
 		</div>

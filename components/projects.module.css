@@ -72,12 +72,6 @@
 .softwareBox img {
 	width: 50px;
 	margin: 10px;
-	filter: invert() brightness(100%)
-}
-
-.softwareBox img {
-	width: 50px;
-	margin: 10px;
 	text-align: center;
 	filter: invert() brightness(100%)
 }

@@ -1,0 +1,22 @@
+
+.softwareBox {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.softwareBox img {
+	width: 50px !important;
+	margin: 10px !important;
+	text-align: center;
+	filter: invert() brightness(100%);
+}
+
+.softwareBox span p {
+	position: relative;
+	font-weight: bold;
+	font-size: 150%;
+	margin-top: rem;
+	color:rgb(255, 255, 255);
+}

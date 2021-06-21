@@ -13,13 +13,13 @@ export default function Skills() {
 			<div className={styleSkills.skillsBox}>
 				<div className={styleSkills.skillsBoxInner}>
 					<div className={styleSkills.skillsBoxIcon}>
-						<img src="/images/check.svg" title="Tick" alt="Tick" />
+						<img src="/images/icons/check.svg" title="Tick" alt="Tick" />
 					</div>
 					<h3>Frontend</h3>
 					<ul>
 						{ frontend.map((next) => (
 							<li key={next}>
-								<img src="/images/check.svg" title="Tick" alt="Tick" />
+								<img src="/images/icons/check.svg" title="Tick" alt="Tick" />
 								<p>{next}</p>
 							</li>
 						)) }
@@ -27,13 +27,13 @@ export default function Skills() {
 				</div>
 				<div className={styleSkills.skillsBoxInner}>
 					<div className={styleSkills.skillsBoxIcon}>
-						<img src="/images/check.svg" title="Tick" alt="Tick" />
+						<img src="/images/icons/check.svg" title="Tick" alt="Tick" />
 					</div>
 					<h3>Backend</h3>
 					<ul>
 						{ backend.map((next) => (
 							<li key={next}>
-								<img src="/images/check.svg" title="Tick" alt="Tick" />
+								<img src="/images/icons/check.svg" title="Tick" alt="Tick" />
 								<p>{next}</p>
 							</li>
 						)) }
@@ -41,13 +41,13 @@ export default function Skills() {
 				</div>
 				<div className={styleSkills.skillsBoxInner}>
 					<div className={styleSkills.skillsBoxIcon}>
-						<img src="/images/check.svg" title="Tick" alt="Tick" />
+						<img src="/images/icons/check.svg" title="Tick" alt="Tick" />
 					</div>
 					<h3>Other</h3>
 					<ul>
 						{ other.map((next) => (
 							<li key={next}>
-								<img src="/images/check.svg" title="Tick" alt="Tick" />
+								<img src="/images/icons/check.svg" title="Tick" alt="Tick" />
 								<p>{next}</p>
 							</li>
 						)) }

@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import Date from '../../components/date'
+import SoftwareBox from '../../components/softwareBox'
 import Layout from "../../components/layout"
 import style from '../../styles/id.module.css'
 import { getAllProjectIds, getProjectData } from "../../lib/projects"
@@ -13,23 +14,28 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-	const postData = await getProjectData(params.id);
+	const project = await getProjectData(params.id);
 	return {
 		props: {
-			postData
+			project
 		}
 	}
 }
 
-export default function Post({ postData }) {
+export default function Post({ project }) {
 	return (
 		<Layout>
 			<Head>
-				<title>Ryan Thomson | {postData.title} | Games Programmer</title>
+				<title>Ryan Thomson | {project.title} | Games Programmer</title>
+				<script async src="/scripts/youtube.js" onLoad="updateYouTubeVideos()" />
+				<script async src="/scripts/blanklinks.js" onLoad="updateBlankLinks()" />
 			</Head>
 			<article className={style.article}>
-				<h1>{postData.title}</h1>
-				<div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
+				<img src={project.banner} />
+				<h1>{project.title}</h1>
+				<span className={style.date}><Date start={project.start_date} end={project.end_date} /></span>
+				<div dangerouslySetInnerHTML={{__html: project.contentHtml}} />
+				<SoftwareBox icons={project.software} />
 			</article>
 		</Layout>
 	)

@@ -1,5 +1,50 @@
 
 .article {
 	margin: auto;
+	padding: 2rem;
 	max-width: 60rem;
+}
+
+.article h1 {
+	margin: auto;
+	font-size: 3rem;
+	text-align: center;
+}
+
+.article img {
+	margin: auto;
+	max-width: 100%;
+}
+
+.article li {
+	margin-top: 5px;
+}
+
+.article strong {
+	color: orange;
+}
+
+.article a:link {
+	color: orange;
+}
+ 
+.article a:visited {
+	color: orange;
+}
+
+.article a:hover {
+	color: orangered;
+}
+  
+.article a:active {
+	color: red;
+}
+
+.date {
+	display: block;
+	font-size: 80%;
+	opacity: 70%;
+	margin: auto;
+	width: 100%;
+	text-align: center;
 }

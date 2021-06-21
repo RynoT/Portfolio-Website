@@ -2,8 +2,8 @@
 title: 'King of the Castle'
 icon: '/images/kingofthecastle.png'
 software:
-  - '/images/unrealengine.svg'
-  - '/images/wwise.svg'
+  - '/images/icons/unrealengine.svg'
+  - '/images/icons/wwise.svg'
 studio: 'Darkroom Interactive'
 role: 'Lead Programmer'
 sort_date:  '2017-09-01'
