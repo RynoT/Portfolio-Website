@@ -37,7 +37,24 @@
 	width: 100%;
 	padding: 0;
 	margin: 0;
+	transition: .5s ease;
 	border-radius: 8px 8px 0 0;
+	backface-visibility: hidden;
+}
+
+.card img:hover {
+	opacity: 0.6;
+}
+
+.externalLink {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 10rem;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	filter: invert();
 }
 
 .cardContent {
@@ -60,28 +77,6 @@
 	margin: auto;
 	width: 100%;
 	text-align: center;
-}
-
-.softwareBox {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-}
-
-.softwareBox img {
-	width: 50px;
-	margin: 10px;
-	text-align: center;
-	filter: invert() brightness(100%)
-}
-
-.softwareBox span p {
-	position: relative;
-	font-weight: bold;
-	font-size: 150%;
-	margin-top: rem;
-	color:rgb(255, 255, 255);
 }
 
 a.button {

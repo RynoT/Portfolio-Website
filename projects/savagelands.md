@@ -69,6 +69,8 @@ This is just a portion of my involvement with this game.
 
 Most features require some sort of user interface to go along side it and that was done using **UMG**. 
 
+There is a lot of data which needed pulled from the original unity project. This was done using **Python** scripts that scraped data from prefabs and stored it in CSV files.
+
 To maintain code quality and provide some quality-assurance all code is **code-reviewed** by the other programmer. So I review the work done by the other programmer and they review my work.
 
 <br/>
