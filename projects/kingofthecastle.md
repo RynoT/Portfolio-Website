@@ -20,6 +20,10 @@ ___
 
 King of the Castle is a fun multiplayer game targeting a younger audience.
 
+The objective of the game is similar to the **domination** gamemode. Players must **capture flags to earn points**.
+
+It was created with the purpose of entering it into **Dare Academy** and showcasing it at **EGX**. 
+
 <br/>
 
 [![YouTube Video](https://img.youtube.com/vi/kIAGHUiPl1M/0.jpg)](https://www.youtube.com/watch?v=kIAGHUiPl1M?)
