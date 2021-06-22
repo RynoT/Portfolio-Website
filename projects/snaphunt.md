@@ -28,6 +28,8 @@ ___
 
 ## Media Coverage
 
+![The Team](/images/projects/snaphunt/theteam.png)
+
 <br/>
 
 ___
