@@ -42,19 +42,29 @@
 	backface-visibility: hidden;
 }
 
-.card img:hover {
-	opacity: 0.5;
+.iconContainer {
+	position: relative;
+	width: 100%;
 }
 
-.externalLink {
+.iconContainer img:nth-child(2) {
+	opacity: 0.0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	max-width: 10rem;
+	max-width: 4.5rem;
 	text-align: center;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	filter: invert();
+}
+
+.iconContainer:hover img:nth-child(1) {
+	opacity: 0.3;
+}
+
+.iconContainer:hover img:nth-child(2) {
+	opacity: 1.0;
 }
 
 .cardContent {

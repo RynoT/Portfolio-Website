@@ -31,10 +31,14 @@ export default function Projects({ data }) {
 				{data.map((project) => (
 					<li key={project.id}>
 						<div className={style.card}>
-							<Link href="/projects/[id]" href={`/projects/${project.id}`}>
-								<a><img src={project.icon} loading='lazy' title={GetImageTitle(project.icon)} alt={GetImageTitle(project.icon)} /></a>
-							</Link>
-							{/* <img className={style.externalLink} src="/images/icons/external-link.svg" /> */}
+							<div className={style.iconContainer}>
+								<Link href="/projects/[id]" href={`/projects/${project.id}`}>
+									<a>
+										<img src={project.icon} loading='lazy' title={GetImageTitle(project.icon)} alt={GetImageTitle(project.icon)} />
+										<img src="/images/icons/external-link.svg" loading='lazy' alt="External Link" />
+									</a>
+								</Link>
+							</div>
 							<div className={style.cardContent}>
 								<h2>{project.title}</h2>
 								<span className={style.date}><Date start={project.start_date} end={project.end_date} /></span>

@@ -1,6 +1,8 @@
 
 
 async function fixMarkdown() {
+
+	// Make all links open in a new tab.
 	var links = document.links;
 	for (var i = 0; i < links.length; ++i) {
 		if (links[i].hostname != window.location.hostname) {
@@ -8,11 +10,13 @@ async function fixMarkdown() {
 		} 
 	}
 
+	// Lazy load all images.
 	var images = document.images;
 	for (var i = 0; i < images.length; ++i) {
 		images[i].loading = 'lazy';
 	}
 
+	// Replace YouTube hyperlinks with an embedded video.
 	var links = document.links;
 	for (var i = 0; i < links.length; ++i) {
 		if (links[i].href.startsWith("https://www.youtube.com/watch?v=") && links[i].href.endsWith("?")) {
