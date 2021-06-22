@@ -20,7 +20,9 @@ ___
 
 ## Project Summary
 
-https://www.youtube.com/watch?v=kIAGHUiPl1M
+<br/>
+
+[![YouTube Video](https://img.youtube.com/vi/kIAGHUiPl1M/0.jpg)](https://www.youtube.com/watch?v=kIAGHUiPl1M)
 
 <br/>
 

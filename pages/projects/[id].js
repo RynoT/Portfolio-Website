@@ -27,8 +27,7 @@ export default function Post({ project }) {
 		<Layout>
 			<Head>
 				<title>Ryan Thomson | {project.title} | Games Programmer</title>
-				<script async src="/scripts/youtube.js" onLoad="updateYouTubeVideos()" />
-				<script async src="/scripts/blanklinks.js" onLoad="updateBlankLinks()" />
+				<script async src="/scripts/fixMarkdown.js" onLoad="fixMarkdown()" />
 			</Head>
 			<article className={style.article}>
 				<img src={project.banner} />
