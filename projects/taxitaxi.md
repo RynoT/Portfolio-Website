@@ -62,10 +62,15 @@ ___
 
 ## Media
 
-![Path1](/images/projects/taxitaxi/path1.png)
+<video autoplay="" muted="" loop="" playsinline="">
+	<source src="/images/projects/taxitaxi/video.mp4" type="video/mp4">
+</video>
+
+![Image1](/images/projects/taxitaxi/image1.png)
+![Image2](/images/projects/taxitaxi/image2.png)
+![Image3](/images/projects/taxitaxi/image3.png)
 ![Path2](/images/projects/taxitaxi/path2.png)
-![Path3](/images/projects/taxitaxi/path3.png)
-![Path4](/images/projects/taxitaxi/path4.png)
+![Path1](/images/projects/taxitaxi/path1.png)
 
 <br/>
 
