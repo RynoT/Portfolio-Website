@@ -33,7 +33,7 @@ export default function Post({ project }) {
 				<img src={project.banner} />
 				<h1>{project.title}</h1>
 				<span className={style.date}><Date start={project.start_date} end={project.end_date} /></span>
-				<div dangerouslySetInnerHTML={{__html: project.contentHtml}} />
+				<div dangerouslySetInnerHTML={{ __html: project.contentHtml }} />
 				<SoftwareBox icons={project.software} />
 			</article>
 		</Layout>

@@ -2,13 +2,7 @@
 title: 'Savage Lands'
 icon: '/images/projects/savagelands/icon.png'
 banner: '/images/projects/savagelands/banner.png'
-software:
-  - '/images/icons/unrealengine.svg'
-  - '/images/icons/xbox.svg'
-  - '/images/icons/playstation.svg'
-  - '/images/icons/nintendoswitch.svg'
-  - '/images/icons/steam.svg'
-  - '/images/icons/epicgames.svg'
+software: ['unrealengine', 'xbox', 'playstation', 'nintendoswitch', 'steam', 'epicgames' ]
 sort_date:  '3001-01-01'
 start_date: '2020-08-01'
 ---

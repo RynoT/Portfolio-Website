@@ -2,10 +2,7 @@
 title: 'Taxi Taxi'
 icon: '/images/projects/taxitaxi/icon.png'
 banner: '/images/projects/taxitaxi/banner.png'
-software:
-  - '/images/icons/unrealengine.svg'
-  - '/images/icons/fmod.svg'
-  - '/images/icons/android.svg'
+software: [ 'unrealengine', 'fmod', 'android' ]
 sort_date:  '2019-06-11'
 start_date: '2019-06-11'
 end_date: '2020-03-24'

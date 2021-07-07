@@ -2,10 +2,7 @@
 title: 'CSR2'
 icon: '/images/projects/csr2/icon.png'
 banner: '/images/projects/csr2/banner.png'
-software:
-  - '/images/icons/unity.svg'
-  - '/images/icons/android.svg'
-  - '/images/icons/ios.svg'
+software: [ 'unity', 'android', 'ios' ]
 sort_date:  '2020-09-01'
 start_date: '2020-03-01'
 end_date: '2020-09-01'

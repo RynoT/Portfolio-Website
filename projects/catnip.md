@@ -2,9 +2,7 @@
 title: 'Catnip'
 icon: '/images/projects/catnip/icon.png'
 banner: '/images/projects/catnip/banner.png'
-software:
-  - '/images/icons/unrealengine.svg'
-  - '/images/icons/itchdotio.svg'
+software: ['unrealengine', 'itchdotio' ]
 sort_date:  '2019-11-21'
 start_date: '2019-11-21'
 end_date: '2019-11-22'

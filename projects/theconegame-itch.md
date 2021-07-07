@@ -2,14 +2,7 @@
 title: 'The Cone Game (PoC)'
 icon: '/images/projects/theconegame-itch/icon.png'
 banner: '/images/projects/theconegame-itch/banner.png'
-software:
-  - '/images/icons/unrealengine.svg'
-  - '/images/icons/fmod.svg'
-  - '/images/icons/amazonaws.svg'
-  - '/images/icons/nodedotjs.svg'
-  - '/images/icons/npm.svg'
-  - '/images/icons/mongodb.svg'
-  - '/images/icons/itchdotio.svg'
+software: [ 'unrealengine', 'fmod', 'amazonaws', 'nodedotjs', 'npm', 'mongodb', 'itchdotio' ]
 sort_date:  '2020-03-27'
 start_date: '2020-03-27'
 end_date: '2020-04-10'

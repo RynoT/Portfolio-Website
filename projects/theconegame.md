@@ -2,12 +2,7 @@
 title: 'The Cone Game'
 icon: '/images/projects/theconegame/icon.png'
 banner: '/images/projects/theconegame/banner.png'
-software:
-  - '/images/icons/unrealengine.svg'
-  - '/images/icons/wwise.svg'
-  - '/images/icons/amazonaws.svg'
-  - '/images/icons/discord.svg'
-  - '/images/icons/steam.svg'
+software: [ 'unrealengine', 'wwise', 'amazonaws', 'discord', 'steam' ]
 sort_date:  '3000-01-01'
 start_date: '2020-04-15'
 ---

@@ -54,6 +54,15 @@
 	filter: invert() brightness(100%)
 }
 
+.skillsBoxIcon svg {
+	top: 20px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	filter: invert() brightness(100%)
+}
+
 .skillsBoxInner h3 {
 	margin-top: -3rem;
 	text-align: center;
@@ -72,6 +81,19 @@
 }
 
 .skillsBoxInner li img {
+	max-width: 1.5rem;
+	margin: auto;
+	vertical-align: middle;
+	filter: invert() brightness(100%)
+}
+
+.skillsBoxInner li div {
+	display: inline;
+}
+
+.skillsBoxInner li div svg {
+	width: auto;
+	height: auto;
 	max-width: 1.5rem;
 	margin: auto;
 	vertical-align: middle;

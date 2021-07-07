@@ -2,11 +2,7 @@
 title: 'This Website'
 icon: '/images/projects/thiswebsite/icon.png'
 banner: '/images/projects/thiswebsite/banner.png'
-software:
-  - '/images/icons/nextdotjs.svg'
-  - '/images/icons/npm.svg'
-  - '/images/icons/cloudflare.svg'
-  - '/images/icons/gmail.svg'
+software: [ 'nextdotjs', 'npm', 'cloudflare', 'gmail' ]
 sort_date:  '3000-01-01'
 start_date: '2021-06-16'
 ---

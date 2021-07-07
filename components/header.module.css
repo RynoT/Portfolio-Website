@@ -46,6 +46,24 @@
 	filter: invert() brightness(70%)
 }
 
+.social div {
+	display: inline;
+}
+
+.social svg {
+	flex: 1;
+	height: 2.5rem;
+	margin: auto;
+	cursor: pointer;
+	padding-left: 10px;
+	vertical-align: middle;
+	filter: invert() brightness(70%)
+}
+
 .social img:hover {
+	filter: invert() brightness(100%)
+}
+
+.social svg:hover {
 	filter: invert() brightness(100%)
 }

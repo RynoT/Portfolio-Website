@@ -6,6 +6,11 @@ export default function Intro() {
 		<div className={styleIntro.intro}>
 			<div className={styleIntro.inner}>
 				<div className={styleIntro.innerImage}>
+					{/* <picture>
+						<source srcSet={require('../public/images/ryan.jpg?webp')} type="image/webp" />
+						<source srcSet={require('../public/images/ryan.jpg')} type="image/jpeg" />
+						<img src={require('../public/images/ryan.jpg')} />
+					</picture> */}
 					<img src="./images/ryan.jpg" loading='lazy' title="Ryan Thomson" alt="Ryan Thomson" />
 				</div>
 				<div className={styleIntro.innerParagraph}>

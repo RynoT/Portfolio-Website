@@ -6,7 +6,7 @@
 	justify-content: center;
 }
 
-.softwareBox img {
+.softwareBox svg {
 	width: 50px !important;
 	margin: 10px !important;
 	text-align: center;

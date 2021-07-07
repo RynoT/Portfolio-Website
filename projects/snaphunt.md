@@ -2,9 +2,7 @@
 title: 'Snap Hunt'
 icon: '/images/projects/snaphunt/icon.png'
 banner: '/images/projects/snaphunt/banner.png'
-software:
-  - '/images/icons/unrealengine.svg'
-  - '/images/icons/wwise.svg'
+software: [ 'unrealengine', 'wwise' ]
 sort_date:  '2019-11-01'
 start_date: '2018-11-01'
 end_date: '2019-09-01'
